@@ -1,0 +1,91 @@
+For Q53 - Midterm Winter 2023
+
+1. Which sources have you used for each question?
+Google
+
+
+a) Links if online: 
+Part 1:
+i) https://www.techtarget.com/whatis/definition/cloud-service-latency#:~:text=Cloud%20service%20latency%20is%20the,for%20a%20number%20of%20reasons.
+ii) https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/192194/BHAT-THESIS-2020.pdf?sequence=1&isAllowed=n
+iii) Notes: Lecture 10 - OpenFaaS Deep Dive PPT
+
+Part 2:
+i) https://www.researchgate.net/publication/328450988_Cold_Start_Influencing_Factors_in_Function_as_a_Service
+ii) https://builtin.com/software-engineering-perspectives/cold-starts-challenge-serverless-architecture 
+
+Part 3:
+i) https://wso2.com/library/articles/2011/08/throttling-cloud-computing-environment/ 
+ii) https://www.accesscorp.com/blog/records-retention-and-cloud-based-storage/
+
+
+Exact links and how you got to this?
+Part 1:
+https://oaktrust.library.tamu.edu/bitstream/handle/1969.1/192194/BHAT-THESIS-2020.pdf?sequence=1&isAllowed=n - Main word is Cold start problem, I read through the article, understood and wrote the answer in own words.
+
+Part 2:
+https://builtin.com/software-engineering-perspectives/cold-starts-challenge-serverless-architecture - Main key words understanding.
+
+Part 3: Both links - Understanding the concept and question.
+
+
+Which search terms have you used if you have used it?
+Part 1: phenomenon that explains difference in response latency cloud computing, cold start problem in cloud computing, cold start latency in OpenFaas, Diadvantage of OpenFaas
+Part 2: options to avoid cold start problem cloud computing
+Part 3: reason for sudden jump in latency cloud computing, throttling, resource retention
+
+
+2. What is the answer you put?
+Part 1:
+The difference in response latency is due to the cold start problem. When a function is first deployed, it might take some time for the underlying infrastructure to set up the necessary resources and initialize the container or virtual machine that will run it. The first execution of the function might have a longer response latency as a result of this initial setup time compared to later executions of the function when the resources have already been allocated and the container or virtual machine is already running. The first execution sequence's noticeably longer response latency may be explained in part by this.
+
+Part 2:
+We can prevent such behavior with the following ways:
+Including a warm-up phase when the function is frequently called to make sure that the required resources have been set aside and the container or virtual machine is already operational before genuine requests come in. This may lessen the impact of the cold start issue.
+Using a pool of virtual or containerized computers that have been pre-warmed and are initialized and prepared to receive requests, obviating the requirement for resource allocation and initialization during request processing.
+To cut down on the time needed for resource allocation and startup, increase the RAM or CPU allotted to the function.
+
+Part 3:
+The sudden jump in latency is due to throttling or resource contention. When a function receives a lot of requests, the underlying infrastructure might need to prioritize or queue them since it might not be able to process them all at once. Rarely, this could lead to throttling, in which some requests are delayed or denied to prevent the system from becoming overloaded. As an alternative, resource contention can occur when multiple functions or containers compete for the same set of resources, which can result in an increase in latency and a decrease in throughput. In order to handle the increased demand, the infrastructure might need to be improved or redesigned.
+
+
+3. Collect the following statistics
+Number of paragraphs
+Part 1: 1
+Part 2: 1 (answered in points)
+Part 3: 1
+
+Number of sentences per paragraph
+Part 1: 4
+Part 2: 5 (counting all sentences)
+Part 3: 5
+
+Number of total sentences
+Part 1: 4
+Part 2: 5
+Part 3: 5
+
+Unique number of words per sentence
+Part 1: 11, 29, 33, 15
+Part 2: 9, 32, 9, 29, 18
+Part 3: 12, 26, 20, 28, 14
+
+Number of words
+Part 1: 102
+Part 2: 106
+Part 3: 111
+
+Number of unique words
+Part 1: 60
+Part 2: 76
+Part 3: 73
+
+Number of HTML tags (if applicable)
+Part 1: 0
+Part 2: 0
+Part 3: 0
+
+Number of unique HTML tags
+Part 1: 0
+Part 2: 0
+Part 3: 0

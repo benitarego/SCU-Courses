@@ -1,0 +1,63 @@
+For Q54 - Midterm Winter 2023
+
+1. Which sources have you used for each question?
+Google
+
+
+a) Links if online: 
+Part 1 & 2:
+i) https://www.chegg.com/homework-help/questions-and-answers/1-docker-faster-read-speed-qemu-2-reason-docker-slower-write-speed-qemu-q108805186
+ii) https://containerjournal.com/features/docker-not-faster-vms-just-efficient/
+iii) HW 1
+
+
+Exact links and how you got to this?
+Part 1 & 2:
+All 3 links - Understanding through the first 2 links and observation from HW1
+
+
+Which search terms have you used if you have used it?
+Part 1: What properties can cause Docker to have faster read speed than QEMU
+Part 2: Docker to have slower write speed than QEMU
+
+
+2. What is the answer you put?
+Part 1:
+The shared kernel approach used by Docker, which enables the containers to bypass the hypervisor layer by sharing the host operating system's kernel, increases read speed. Since Docker containers run directly on the host operating system, they may take advantage of its built-in performance optimizations and caching capabilities, which could lead to faster read rates. Docker's lightweight design and low overhead can accelerate I/O operations, especially for small files or workloads that require a lot of reading.
+
+Part 2:
+The copy-on-write technique used by Docker to manage file systems for containers may lead to slower write performance than QEMU. Every time a file is updated in a container using Docker, a new layer is created, which could result in more I/O operations being needed and slower write speeds. QEMU uses full system virtualization to build a full virtual machine with its own operating system. Although this approach can enhance isolation and security, it has a significant overhead, especially when managing I/O operations. For instance, to improve the performance of I/O operations, QEMU may directly access hardware using the Virtual I/O interface, which can lead to faster writing speeds than Docker.
+
+
+3. Collect the following statistics
+Number of paragraphs
+Part 1: 1
+Part 2: 1
+
+Number of sentences per paragraph
+Part 1: 3
+Part 2: 5
+
+Number of total sentences
+Part 1: 3
+Part 2: 5
+
+Unique number of words per sentence
+Part 1: 21, 29, 22
+Part 2: 19, 25, 14, 18, 25
+
+Number of words
+Part 1: 78
+Part 2: 115
+
+Number of unique words
+Part 1: 62
+Part 2: 74
+
+Number of HTML tags (if applicable)
+Part 1: 0
+Part 2: 0
+
+Number of unique HTML tags
+Part 1: 0
+Part 2: 0

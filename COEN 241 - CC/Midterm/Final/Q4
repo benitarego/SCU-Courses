@@ -1,0 +1,46 @@
+For Q2
+
+1. Which sources have you used for each question?
+Google
+
+
+a) Links if online: 
+i) https://www.mobindustry.net/blog/how-to-make-a-cloud-based-application-an-ultimate-guide/
+ii) https://developer.hpe.com/blog/dockerizing-your-nodejs-based-backend-applications/
+iii) https://www.techtarget.com/searchdatamanagement/news/252493713/AWS-expands-cloud-databases-with-data-virtualization
+iv) https://opensource.com/article/20/8/virt-tools
+v) https://www.softwaretestinghelp.com/virtualization-software/
+
+
+Exact links and how you got to this?
+All links were used to understand the various virtualizations and which would suit best for each piece.
+
+
+Which search terms have you used if you have used it?
+virtualization technologies for shopping web server, cloud technologies for backend of an application, cloud technologies for database of the application
+
+
+2. What is the answer you put?
+Backend backend for monetary transactions: For the backend, containerization technologies like Docker can be a great option to virtualize the money transactions. Docker is the most popular technology because of the ease in containerization and implementation for an environment where the flow of responses is heavy and will need a completely reliable method to maintain the performance as well as the safety of the application.
+
+Backend for all other logic: We can use Virtual Machines like VirtualBox, etc to create multiple servers for handling different OS for handling functions written in various languages. This aids in load balancing multiple OS in one place which in turn would reduce latency issues that would otherwise lead to operation failures.
+
+Databases to store all data: Data Virtualization technologies like AWS can be used that allows flexibility, reliability and heavy network access to the data in the web server. Furthermore, it helps with balancing load with various data recovery options. Also, cloud based database services provide security and high availability of many resources required during active money transactions.
+
+
+3. Collect the following statistics
+Number of paragraphs: 3
+
+Number of sentences per paragraph: 2, 2, 3
+
+Number of total sentences: 7
+
+Unique number of words per sentence: 17, 33, 25, 21, 24, 10, 18
+
+Number of words: 174
+
+Number of unique words: 113
+
+Number of HTML tags (if applicable): 0
+
+Number of unique HTML tags: 0

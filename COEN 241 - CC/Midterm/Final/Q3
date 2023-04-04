@@ -1,0 +1,77 @@
+For Q1
+
+1. Which sources have you used for each question?
+Google
+
+
+a) Links if online: 
+Part 1:
+i) https://wiki.yoctoproject.org/wiki/BKM:_improve_qemu_performance
+ii) https://www.qemu.org/docs/master/system/qemu-manpage.html
+iii) https://stackoverflow.com/questions/24936920/increasing-the-speed-of-qemu-clock
+iv) HW 1
+
+Part 2:
+i) https://stackoverflow.com/questions/48299352/how-to-limit-docker-run-execution-time#:~:text=The%20%2D%2Dstop%2Dtimeout%20option,is%20stopped%20after%20a%20second.
+ii) https://stackoverflow.com/questions/48299352/how-to-limit-docker-run-execution-time
+iii) https://docs.docker.com/config/containers/resource_constraints/
+iv) https://phoenixnap.com/kb/docker-optimize-performance
+iv) W 1
+
+
+Exact links and how you got to this?
+Part 1 & 2:
+All links - Understanding how QEMU works and various ways to improve performance, understanding the reason for increased completion time and how it is reduced.
+
+
+Which search terms have you used if you have used it?
+Part 1: ways that cause QEMU completion time to increase, qemu time to increase
+Part 2: reason that restrict docker completion time, docker, way to reduce docker execution time, docker execution time
+
+
+2. What is the answer you put?
+Part 1:
+QEMU completion times can increase due to the following ways:
+Increasing memory space since it needs more space to get the whole OS into memory that can sometimes lead to slow completion time if the guest OS takes in a lot of memory.
+Emulating hardware can cause high overhead since it replicates the entire OS which can increase completion time.
+Emulating hardware also means emulating the CPU which can lead to more overhead. Overheading can be caused by various reasons like handling break ins. 
+
+Part 2:
+Docker completion times can be capped due to many reasons:
+Due to lack to resources like memory, CPU and other disk resources can cap the completion time. The container requires memory all the time, it can reduce performance on lack of memory and possible failure. Resource allocation is essential in order to maintain the performance, further improving completion time.
+Containers play a crucial role in docker and if the container runs out of memory, the memory exhaustion can cause complete failure unless memory is swapped using commands like --memory and --memory-swap. 
+Docker relies on network access to communicte with services outside and due to limited network access, it can lead to capped completion time. A good network access to the containers will enable better execution, with better completion time.
+
+
+3. Collect the following statistics
+Number of paragraphs
+Part 1: 1 (answered in points)
+Part 2: 1 (answered in points)
+
+Number of sentences per paragraph
+Part 1: 5 (counting all sentences)
+Part 2: 7 (counting all sentences)
+
+Number of total sentences
+Part 1: 5
+Part 2: 7
+
+Unique number of words per sentence
+Part 1: 10, 27, 16, 12, 11
+Part 2: 10, 15, 16, 14, 28, 19, 14
+
+Number of words
+Part 1: 84
+Part 2: 129
+
+Number of unique words
+Part 1: 54
+Part 2: 71
+
+Number of HTML tags (if applicable)
+Part 1: 0
+Part 2: 0
+
+Number of unique HTML tags
+Part 1: 0
+Part 2: 0
